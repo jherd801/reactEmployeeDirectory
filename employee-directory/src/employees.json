@@ -1,17 +1,6 @@
 [
     {
         "id": 1,
-        "name": "James King",
-        "managerName": "",
-        "title": "President and CEO",
-        "department": "Corporate",
-        "mobilePhone": "617-000-0001",
-        "officePhone": "781-000-0001",
-        "email": "jking@fakemail.com",
-        "city": "Boston, MA"
-    },
-    {
-        "id": 2,
         "name": "Julie Taylor",
         "managerName": "James King",
         "title": "VP of Marketing",
@@ -22,7 +11,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Eugene Lee",
         "managerName": "James King",
         "title": "CFO",
@@ -33,7 +22,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "John Williams",
         "managerName": "James King",
         "title": "VP of Engineering",
@@ -44,7 +33,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Ray Moore",
         "managerName": "James King",
         "title": "VP of Sales",
@@ -55,7 +44,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Paul Jones",
         "managerName": "John Williams",
         "title": "QA Manager",
@@ -66,7 +55,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Paula Gates",
         "managerName": "John Williams",
         "title": "Software Architect",
@@ -77,7 +66,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "Lisa Wong",
         "managerName": "Julie Taylor",
         "title": "Marketing Manager",
@@ -88,7 +77,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 9,
+        "id": 8,
         "name": "Gary Donovan",
         "managerName": "Julie Taylor",
         "title": "Marketing Manager",
@@ -99,7 +88,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 10,
+        "id": 9,
         "name": "Kathleen Byrne",
         "managerName": "Ray Moore",
         "title": "Sales Representative",
@@ -110,7 +99,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 11,
+        "id": 10,
         "name": "Amy Jones",
         "managerName": "Ray Moore",
         "title": "Sales Representative",
@@ -121,7 +110,7 @@
         "city": "Boston, MA"
     },
     {
-        "id": 12,
+        "id": 11,
         "name": "Steven Wells",
         "managerName": "John Williams",
         "title": "Software Architect",

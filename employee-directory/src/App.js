@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import './App.css';
 import employees from './employees.json';
 import EmployeeCard from './components/EmployeeCard'
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+
 
 class App extends Component {
 
@@ -16,7 +19,13 @@ class App extends Component {
         {this.state.employees.map(employee => (
           <EmployeeCard
           name={employee.name}
-          manager={employee.manager}
+          manager={employee.managerName}
+          title={employee.title}
+          department={employee.department}
+          mobilePhone={employee.mobilePhone}
+          officePhone={employee.officePhone}
+          email={employee.email}
+          city={employee.city}
           />
         ))}
       </Wrapper>
