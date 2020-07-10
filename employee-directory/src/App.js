@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import './App.css';
 import employees from './employees.json';
-import EmployeeCard from './components/EmployeeCard'
+// import EmployeeCard from './components/EmployeeCard';
+import EmployeeTable from './components/EmployeeTable';
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 
@@ -17,7 +18,8 @@ class App extends Component {
       <Wrapper>
         <Title>Employee Directory</Title>
         {this.state.employees.map(employee => (
-          <EmployeeCard
+          // <EmployeeCard
+          <EmployeeTable
           name={employee.name}
           manager={employee.managerName}
           title={employee.title}

@@ -5,10 +5,10 @@
         "managerName": "James King",
         "title": "VP of Marketing",
         "department": "Marketing",
-        "mobilePhone": "617-000-0002",
-        "officePhone": "781-000-0002",
+        "mobilePhone": "801-000-0002",
+        "officePhone": "385-000-0002",
         "email": "jtaylor@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 2,
@@ -16,10 +16,10 @@
         "managerName": "James King",
         "title": "CFO",
         "department": "Accounting",
-        "mobilePhone": "617-000-0003",
-        "officePhone": "781-000-0003",
+        "mobilePhone": "801-000-0003",
+        "officePhone": "385-000-0003",
         "email": "elee@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 3,
@@ -27,10 +27,10 @@
         "managerName": "James King",
         "title": "VP of Engineering",
         "department": "Engineering",
-        "mobilePhone": "617-000-0004",
-        "officePhone": "781-000-0004",
+        "mobilePhone": "801-000-0004",
+        "officePhone": "385-000-0004",
         "email": "jwilliams@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 4,
@@ -38,10 +38,10 @@
         "managerName": "James King",
         "title": "VP of Sales",
         "department": "Sales",
-        "mobilePhone": "617-000-0005",
-        "officePhone": "781-000-0005",
+        "mobilePhone": "801-000-0005",
+        "officePhone": "385-000-0005",
         "email": "rmoore@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 5,
@@ -49,10 +49,10 @@
         "managerName": "John Williams",
         "title": "QA Manager",
         "department": "Engineering",
-        "mobilePhone": "617-000-0006",
-        "officePhone": "781-000-0006",
+        "mobilePhone": "801-000-0006",
+        "officePhone": "385-000-0006",
         "email": "pjones@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 6,
@@ -60,10 +60,10 @@
         "managerName": "John Williams",
         "title": "Software Architect",
         "department": "Engineering",
-        "mobilePhone": "617-000-0007",
-        "officePhone": "781-000-0007",
+        "mobilePhone": "801-000-0007",
+        "officePhone": "385-000-0007",
         "email": "pgates@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 7,
@@ -71,10 +71,10 @@
         "managerName": "Julie Taylor",
         "title": "Marketing Manager",
         "department": "Marketing",
-        "mobilePhone": "617-000-0008",
-        "officePhone": "781-000-0008",
+        "mobilePhone": "801-000-0008",
+        "officePhone": "385-000-0008",
         "email": "lwong@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 8,
@@ -82,10 +82,10 @@
         "managerName": "Julie Taylor",
         "title": "Marketing Manager",
         "department": "Marketing",
-        "mobilePhone": "617-000-0009",
-        "officePhone": "781-000-0009",
+        "mobilePhone": "801-000-0009",
+        "officePhone": "385-000-0009",
         "email": "gdonovan@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 9,
@@ -93,10 +93,10 @@
         "managerName": "Ray Moore",
         "title": "Sales Representative",
         "department": "Sales",
-        "mobilePhone": "617-000-0010",
-        "officePhone": "781-000-0010",
+        "mobilePhone": "801-000-0010",
+        "officePhone": "385-000-0010",
         "email": "kbyrne@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 10,
@@ -104,10 +104,10 @@
         "managerName": "Ray Moore",
         "title": "Sales Representative",
         "department": "Sales",
-        "mobilePhone": "617-000-0011",
-        "officePhone": "781-000-0011",
+        "mobilePhone": "801-000-0011",
+        "officePhone": "385-000-0011",
         "email": "ajones@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     },
     {
         "id": 11,
@@ -115,9 +115,9 @@
         "managerName": "John Williams",
         "title": "Software Architect",
         "department": "Engineering",
-        "mobilePhone": "617-000-0012",
-        "officePhone": "781-000-0012",
+        "mobilePhone": "801-000-0012",
+        "officePhone": "385-000-0012",
         "email": "swells@fakemail.com",
-        "city": "Boston, MA"
+        "city": "Salt Lake City, Utah"
     }
 ]
