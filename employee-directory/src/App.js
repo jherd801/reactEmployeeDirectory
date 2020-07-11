@@ -17,9 +17,25 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Employee Directory</Title>
+        <div className="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Manager</th>
+                        <th>Title</th>
+                        <th>Department</th>
+                        <th>Mobile</th>
+                        <th>Office</th>
+                        <th>Email</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+
         {this.state.employees.map(employee => (
-          // <EmployeeCard
           <EmployeeTable
+          key={employee.id}
           name={employee.name}
           manager={employee.managerName}
           title={employee.title}
@@ -29,7 +45,10 @@ class App extends Component {
           email={employee.email}
           city={employee.city}
           />
-        ))}
+          ))}
+          </tbody>
+      </table>
+  </div>
       </Wrapper>
     )
   }
