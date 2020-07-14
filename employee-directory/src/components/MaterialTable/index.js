@@ -20,7 +20,6 @@ function EmployeeTable() {
         });      
     }, []);
 
-
   return (
     <TableContainer component={Paper}>
       <Table aria-label="simple table">
