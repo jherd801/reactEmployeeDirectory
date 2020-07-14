@@ -42,7 +42,7 @@ function EmployeeTable() {
               <TableCell component="th" scope="employee">
                 {employee.id.value}
               </TableCell>
-              <TableCell align="left"><img src={employee.picture.thumbnail} alt="Profile pic"/></TableCell>
+              <TableCell align="left"><img src={employee.picture.large} alt="Profile pic"/></TableCell>
               <TableCell align="left">{employee.name.first}</TableCell>
               <TableCell align="left">{employee.name.last}</TableCell>
               <TableCell align="left">{employee.location.city}</TableCell>

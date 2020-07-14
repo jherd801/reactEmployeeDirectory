@@ -1,19 +1,51 @@
-import React from "react";
-import "./style.css"
+import React, { useState, useEffect } from "react";
+import Wrapper from "../Wrapper";
+import API from "../../utils/API";
 
-function EmployeeRow(props) {
+
+
+function EmployeeTable() {
+
+  const [employees, setEmployees] = useState([]);
+
+  useEffect(() => {
+      API.search()
+        .then(res => {
+          setEmployees(res.data.results)
+      });      
+  }, []);
+
     return (
-            <tr>
-                <td className="col-shade">{props.name}</td>
-                <td>{props.manager}</td>
-                <td className="col-shade">{props.title}</td>
-                <td>{props.department}</td>
-                <td className="col-shade">{props.mobilePhone}</td>
-                <td>{props.officePhone}</td>
-                <td className="col-shade">{props.email}</td>
-                <td>{props.city}</td>
-            </tr>
-    )
-}
+      <Wrapper>
+        <div className="content">
+            <table className="table table-striped table-hover">
+                <thead className="thead-dark">
+                    <tr>
+                        <th>Photo</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>City</th>
+                        <th>Office Phone</th>
+                        <th>Mobile Phone</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  {employees.map(employee => (
+                    <tr key={employee.id.value}>
+                      <td><img src={employee.picture.large} alt="Profile pic"/></td>
+                      <td>{employee.name.first}</td>
+                      <td>{employee.name.last}</td>
+                      <td>{employee.location.city}</td>
+                      <td>{employee.phone}</td>
+                      <td>{employee.cell}</td>
+                      <td>{employee.email}</td>
+                    </tr>))}
+                </tbody>
+      </table>
+  </div>
+      </Wrapper>
+                  )}
 
-export default EmployeeRow;
+export default EmployeeTable;
+
