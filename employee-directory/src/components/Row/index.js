@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Wrapper from "../Wrapper";
 import API from "../../utils/API";
-
+import Form from "../Form";
 
 
 function EmployeeTable() {
 
-  const [employees, setEmployees] = useState([]);
+  let [employees, setEmployees] = useState([]);
 
   useEffect(() => {
       API.search()
@@ -15,8 +15,12 @@ function EmployeeTable() {
       });      
   }, []);
 
+  const filterResult = employees.filter(employee => employee.location.state === "Oregon");
+  employees = filterResult
+
     return (
       <Wrapper>
+        <Form/>
         <div className="content">
             <table className="table table-striped table-hover">
                 <thead className="thead-dark">
