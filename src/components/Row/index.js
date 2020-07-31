@@ -15,8 +15,8 @@ function EmployeeTable() {
       });      
   }, []);
 
-  const filterResult = employees.filter(employee => employee.location.state === "Oregon");
-  employees = filterResult
+  // const filterResult = employees.filter(employee => employee.location.state === "Oregon");
+  // employees = filterResult
 
     return (
       <Wrapper>
