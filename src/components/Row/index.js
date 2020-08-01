@@ -15,12 +15,14 @@ function EmployeeTable() {
       });      
   }, []);
 
-  // const filterResult = employees.filter(employee => employee.location.state === "Oregon");
-  // employees = filterResult
+  let searchFunction = (e) => {
+    const filterResult = employees.filter(employee => employee.location.state.includes(e.target.value));
+    setEmployees(filterResult)
+  }
 
     return (
       <Wrapper>
-        <Form/>
+        <Form handleInputChange = {searchFunction}/>
         <div className="content">
             <table className="table table-striped table-hover">
                 <thead className="thead-dark">
